@@ -23,10 +23,6 @@ ingress:
 
 skipStartupScripts: true
 
-allowedHosts:
-  - 'netbox.local'
-
-
 image:
   repository: netboxcommunity/netbox
   pullPolicy: IfNotPresent
